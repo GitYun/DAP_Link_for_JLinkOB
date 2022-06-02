@@ -1,0 +1,191 @@
+[
+{
+  "directory": "E:\\Docs\\xLink\\DAP_Link_for_JLinkOB",
+  "arguments": ["D:\\OpenCLI\\Compilers\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc", "-c", "-IMAIN", "-IMAIN\\cmsis", "-IMAIN\\dev", "-IMAIN\\wrap", "-IMAIN\\usb_adapter\\App", "-IMAIN\\usb_adapter\\Target", "-IDAP\\inc", "-IHAL\\inc", "-IUSB\\Class\\CustomHID\\Inc", "-IUSB\\Core\\Inc", "-mthumb", "-Wextra", "-Wall", "-g", "-mcpu=cortex-m3", "-ffunction-sections", "-DDEBUG=1", "-DSTM32F103xB", "-o", "build\\.objs\\DAP_Link_for_JLinkOB\\cross\\arm\\debug\\DAP\\src\\DAP.c.o", "DAP\\src\\DAP.c"],
+  "file": "DAP\\src\\DAP.c"
+},
+{
+  "directory": "E:\\Docs\\xLink\\DAP_Link_for_JLinkOB",
+  "arguments": ["D:\\OpenCLI\\Compilers\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc", "-c", "-IMAIN", "-IMAIN\\cmsis", "-IMAIN\\dev", "-IMAIN\\wrap", "-IMAIN\\usb_adapter\\App", "-IMAIN\\usb_adapter\\Target", "-IDAP\\inc", "-IHAL\\inc", "-IUSB\\Class\\CustomHID\\Inc", "-IUSB\\Core\\Inc", "-mthumb", "-Wextra", "-Wall", "-g", "-mcpu=cortex-m3", "-ffunction-sections", "-DDEBUG=1", "-DSTM32F103xB", "-o", "build\\.objs\\DAP_Link_for_JLinkOB\\cross\\arm\\debug\\DAP\\src\\DAP_vendor.c.o", "DAP\\src\\DAP_vendor.c"],
+  "file": "DAP\\src\\DAP_vendor.c"
+},
+{
+  "directory": "E:\\Docs\\xLink\\DAP_Link_for_JLinkOB",
+  "arguments": ["D:\\OpenCLI\\Compilers\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc", "-c", "-IMAIN", "-IMAIN\\cmsis", "-IMAIN\\dev", "-IMAIN\\wrap", "-IMAIN\\usb_adapter\\App", "-IMAIN\\usb_adapter\\Target", "-IDAP\\inc", "-IHAL\\inc", "-IUSB\\Class\\CustomHID\\Inc", "-IUSB\\Core\\Inc", "-mthumb", "-Wextra", "-Wall", "-g", "-mcpu=cortex-m3", "-ffunction-sections", "-DDEBUG=1", "-DSTM32F103xB", "-o", "build\\.objs\\DAP_Link_for_JLinkOB\\cross\\arm\\debug\\DAP\\src\\JTAG_DP.c.o", "DAP\\src\\JTAG_DP.c"],
+  "file": "DAP\\src\\JTAG_DP.c"
+},
+{
+  "directory": "E:\\Docs\\xLink\\DAP_Link_for_JLinkOB",
+  "arguments": ["D:\\OpenCLI\\Compilers\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc", "-c", "-IMAIN", "-IMAIN\\cmsis", "-IMAIN\\dev", "-IMAIN\\wrap", "-IMAIN\\usb_adapter\\App", "-IMAIN\\usb_adapter\\Target", "-IDAP\\inc", "-IHAL\\inc", "-IUSB\\Class\\CustomHID\\Inc", "-IUSB\\Core\\Inc", "-mthumb", "-Wextra", "-Wall", "-g", "-mcpu=cortex-m3", "-ffunction-sections", "-DDEBUG=1", "-DSTM32F103xB", "-o", "build\\.objs\\DAP_Link_for_JLinkOB\\cross\\arm\\debug\\DAP\\src\\SWO.c.o", "DAP\\src\\SWO.c"],
+  "file": "DAP\\src\\SWO.c"
+},
+{
+  "directory": "E:\\Docs\\xLink\\DAP_Link_for_JLinkOB",
+  "arguments": ["D:\\OpenCLI\\Compilers\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc", "-c", "-IMAIN", "-IMAIN\\cmsis", "-IMAIN\\dev", "-IMAIN\\wrap", "-IMAIN\\usb_adapter\\App", "-IMAIN\\usb_adapter\\Target", "-IDAP\\inc", "-IHAL\\inc", "-IUSB\\Class\\CustomHID\\Inc", "-IUSB\\Core\\Inc", "-mthumb", "-Wextra", "-Wall", "-g", "-mcpu=cortex-m3", "-ffunction-sections", "-DDEBUG=1", "-DSTM32F103xB", "-o", "build\\.objs\\DAP_Link_for_JLinkOB\\cross\\arm\\debug\\DAP\\src\\SW_DP.c.o", "DAP\\src\\SW_DP.c"],
+  "file": "DAP\\src\\SW_DP.c"
+},
+{
+  "directory": "E:\\Docs\\xLink\\DAP_Link_for_JLinkOB",
+  "arguments": ["D:\\OpenCLI\\Compilers\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc", "-c", "-IMAIN", "-IMAIN\\cmsis", "-IMAIN\\dev", "-IMAIN\\wrap", "-IMAIN\\usb_adapter\\App", "-IMAIN\\usb_adapter\\Target", "-IDAP\\inc", "-IHAL\\inc", "-IUSB\\Class\\CustomHID\\Inc", "-IUSB\\Core\\Inc", "-mthumb", "-Wextra", "-Wall", "-g", "-mcpu=cortex-m3", "-ffunction-sections", "-DDEBUG=1", "-DSTM32F103xB", "-o", "build\\.objs\\DAP_Link_for_JLinkOB\\cross\\arm\\debug\\HAL\\Src\\stm32f1xx_hal.c.o", "HAL\\Src\\stm32f1xx_hal.c"],
+  "file": "HAL\\Src\\stm32f1xx_hal.c"
+},
+{
+  "directory": "E:\\Docs\\xLink\\DAP_Link_for_JLinkOB",
+  "arguments": ["D:\\OpenCLI\\Compilers\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc", "-c", "-IMAIN", "-IMAIN\\cmsis", "-IMAIN\\dev", "-IMAIN\\wrap", "-IMAIN\\usb_adapter\\App", "-IMAIN\\usb_adapter\\Target", "-IDAP\\inc", "-IHAL\\inc", "-IUSB\\Class\\CustomHID\\Inc", "-IUSB\\Core\\Inc", "-mthumb", "-Wextra", "-Wall", "-g", "-mcpu=cortex-m3", "-ffunction-sections", "-DDEBUG=1", "-DSTM32F103xB", "-o", "build\\.objs\\DAP_Link_for_JLinkOB\\cross\\arm\\debug\\HAL\\Src\\stm32f1xx_hal_cortex.c.o", "HAL\\Src\\stm32f1xx_hal_cortex.c"],
+  "file": "HAL\\Src\\stm32f1xx_hal_cortex.c"
+},
+{
+  "directory": "E:\\Docs\\xLink\\DAP_Link_for_JLinkOB",
+  "arguments": ["D:\\OpenCLI\\Compilers\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc", "-c", "-IMAIN", "-IMAIN\\cmsis", "-IMAIN\\dev", "-IMAIN\\wrap", "-IMAIN\\usb_adapter\\App", "-IMAIN\\usb_adapter\\Target", "-IDAP\\inc", "-IHAL\\inc", "-IUSB\\Class\\CustomHID\\Inc", "-IUSB\\Core\\Inc", "-mthumb", "-Wextra", "-Wall", "-g", "-mcpu=cortex-m3", "-ffunction-sections", "-DDEBUG=1", "-DSTM32F103xB", "-o", "build\\.objs\\DAP_Link_for_JLinkOB\\cross\\arm\\debug\\HAL\\Src\\stm32f1xx_hal_dma.c.o", "HAL\\Src\\stm32f1xx_hal_dma.c"],
+  "file": "HAL\\Src\\stm32f1xx_hal_dma.c"
+},
+{
+  "directory": "E:\\Docs\\xLink\\DAP_Link_for_JLinkOB",
+  "arguments": ["D:\\OpenCLI\\Compilers\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc", "-c", "-IMAIN", "-IMAIN\\cmsis", "-IMAIN\\dev", "-IMAIN\\wrap", "-IMAIN\\usb_adapter\\App", "-IMAIN\\usb_adapter\\Target", "-IDAP\\inc", "-IHAL\\inc", "-IUSB\\Class\\CustomHID\\Inc", "-IUSB\\Core\\Inc", "-mthumb", "-Wextra", "-Wall", "-g", "-mcpu=cortex-m3", "-ffunction-sections", "-DDEBUG=1", "-DSTM32F103xB", "-o", "build\\.objs\\DAP_Link_for_JLinkOB\\cross\\arm\\debug\\HAL\\Src\\stm32f1xx_hal_exti.c.o", "HAL\\Src\\stm32f1xx_hal_exti.c"],
+  "file": "HAL\\Src\\stm32f1xx_hal_exti.c"
+},
+{
+  "directory": "E:\\Docs\\xLink\\DAP_Link_for_JLinkOB",
+  "arguments": ["D:\\OpenCLI\\Compilers\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc", "-c", "-IMAIN", "-IMAIN\\cmsis", "-IMAIN\\dev", "-IMAIN\\wrap", "-IMAIN\\usb_adapter\\App", "-IMAIN\\usb_adapter\\Target", "-IDAP\\inc", "-IHAL\\inc", "-IUSB\\Class\\CustomHID\\Inc", "-IUSB\\Core\\Inc", "-mthumb", "-Wextra", "-Wall", "-g", "-mcpu=cortex-m3", "-ffunction-sections", "-DDEBUG=1", "-DSTM32F103xB", "-o", "build\\.objs\\DAP_Link_for_JLinkOB\\cross\\arm\\debug\\HAL\\Src\\stm32f1xx_hal_flash.c.o", "HAL\\Src\\stm32f1xx_hal_flash.c"],
+  "file": "HAL\\Src\\stm32f1xx_hal_flash.c"
+},
+{
+  "directory": "E:\\Docs\\xLink\\DAP_Link_for_JLinkOB",
+  "arguments": ["D:\\OpenCLI\\Compilers\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc", "-c", "-IMAIN", "-IMAIN\\cmsis", "-IMAIN\\dev", "-IMAIN\\wrap", "-IMAIN\\usb_adapter\\App", "-IMAIN\\usb_adapter\\Target", "-IDAP\\inc", "-IHAL\\inc", "-IUSB\\Class\\CustomHID\\Inc", "-IUSB\\Core\\Inc", "-mthumb", "-Wextra", "-Wall", "-g", "-mcpu=cortex-m3", "-ffunction-sections", "-DDEBUG=1", "-DSTM32F103xB", "-o", "build\\.objs\\DAP_Link_for_JLinkOB\\cross\\arm\\debug\\HAL\\Src\\stm32f1xx_hal_flash_ex.c.o", "HAL\\Src\\stm32f1xx_hal_flash_ex.c"],
+  "file": "HAL\\Src\\stm32f1xx_hal_flash_ex.c"
+},
+{
+  "directory": "E:\\Docs\\xLink\\DAP_Link_for_JLinkOB",
+  "arguments": ["D:\\OpenCLI\\Compilers\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc", "-c", "-IMAIN", "-IMAIN\\cmsis", "-IMAIN\\dev", "-IMAIN\\wrap", "-IMAIN\\usb_adapter\\App", "-IMAIN\\usb_adapter\\Target", "-IDAP\\inc", "-IHAL\\inc", "-IUSB\\Class\\CustomHID\\Inc", "-IUSB\\Core\\Inc", "-mthumb", "-Wextra", "-Wall", "-g", "-mcpu=cortex-m3", "-ffunction-sections", "-DDEBUG=1", "-DSTM32F103xB", "-o", "build\\.objs\\DAP_Link_for_JLinkOB\\cross\\arm\\debug\\HAL\\Src\\stm32f1xx_hal_gpio.c.o", "HAL\\Src\\stm32f1xx_hal_gpio.c"],
+  "file": "HAL\\Src\\stm32f1xx_hal_gpio.c"
+},
+{
+  "directory": "E:\\Docs\\xLink\\DAP_Link_for_JLinkOB",
+  "arguments": ["D:\\OpenCLI\\Compilers\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc", "-c", "-IMAIN", "-IMAIN\\cmsis", "-IMAIN\\dev", "-IMAIN\\wrap", "-IMAIN\\usb_adapter\\App", "-IMAIN\\usb_adapter\\Target", "-IDAP\\inc", "-IHAL\\inc", "-IUSB\\Class\\CustomHID\\Inc", "-IUSB\\Core\\Inc", "-mthumb", "-Wextra", "-Wall", "-g", "-mcpu=cortex-m3", "-ffunction-sections", "-DDEBUG=1", "-DSTM32F103xB", "-o", "build\\.objs\\DAP_Link_for_JLinkOB\\cross\\arm\\debug\\HAL\\Src\\stm32f1xx_hal_gpio_ex.c.o", "HAL\\Src\\stm32f1xx_hal_gpio_ex.c"],
+  "file": "HAL\\Src\\stm32f1xx_hal_gpio_ex.c"
+},
+{
+  "directory": "E:\\Docs\\xLink\\DAP_Link_for_JLinkOB",
+  "arguments": ["D:\\OpenCLI\\Compilers\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc", "-c", "-IMAIN", "-IMAIN\\cmsis", "-IMAIN\\dev", "-IMAIN\\wrap", "-IMAIN\\usb_adapter\\App", "-IMAIN\\usb_adapter\\Target", "-IDAP\\inc", "-IHAL\\inc", "-IUSB\\Class\\CustomHID\\Inc", "-IUSB\\Core\\Inc", "-mthumb", "-Wextra", "-Wall", "-g", "-mcpu=cortex-m3", "-ffunction-sections", "-DDEBUG=1", "-DSTM32F103xB", "-o", "build\\.objs\\DAP_Link_for_JLinkOB\\cross\\arm\\debug\\HAL\\Src\\stm32f1xx_hal_pcd.c.o", "HAL\\Src\\stm32f1xx_hal_pcd.c"],
+  "file": "HAL\\Src\\stm32f1xx_hal_pcd.c"
+},
+{
+  "directory": "E:\\Docs\\xLink\\DAP_Link_for_JLinkOB",
+  "arguments": ["D:\\OpenCLI\\Compilers\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc", "-c", "-IMAIN", "-IMAIN\\cmsis", "-IMAIN\\dev", "-IMAIN\\wrap", "-IMAIN\\usb_adapter\\App", "-IMAIN\\usb_adapter\\Target", "-IDAP\\inc", "-IHAL\\inc", "-IUSB\\Class\\CustomHID\\Inc", "-IUSB\\Core\\Inc", "-mthumb", "-Wextra", "-Wall", "-g", "-mcpu=cortex-m3", "-ffunction-sections", "-DDEBUG=1", "-DSTM32F103xB", "-o", "build\\.objs\\DAP_Link_for_JLinkOB\\cross\\arm\\debug\\HAL\\Src\\stm32f1xx_hal_pcd_ex.c.o", "HAL\\Src\\stm32f1xx_hal_pcd_ex.c"],
+  "file": "HAL\\Src\\stm32f1xx_hal_pcd_ex.c"
+},
+{
+  "directory": "E:\\Docs\\xLink\\DAP_Link_for_JLinkOB",
+  "arguments": ["D:\\OpenCLI\\Compilers\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc", "-c", "-IMAIN", "-IMAIN\\cmsis", "-IMAIN\\dev", "-IMAIN\\wrap", "-IMAIN\\usb_adapter\\App", "-IMAIN\\usb_adapter\\Target", "-IDAP\\inc", "-IHAL\\inc", "-IUSB\\Class\\CustomHID\\Inc", "-IUSB\\Core\\Inc", "-mthumb", "-Wextra", "-Wall", "-g", "-mcpu=cortex-m3", "-ffunction-sections", "-DDEBUG=1", "-DSTM32F103xB", "-o", "build\\.objs\\DAP_Link_for_JLinkOB\\cross\\arm\\debug\\HAL\\Src\\stm32f1xx_hal_pwr.c.o", "HAL\\Src\\stm32f1xx_hal_pwr.c"],
+  "file": "HAL\\Src\\stm32f1xx_hal_pwr.c"
+},
+{
+  "directory": "E:\\Docs\\xLink\\DAP_Link_for_JLinkOB",
+  "arguments": ["D:\\OpenCLI\\Compilers\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc", "-c", "-IMAIN", "-IMAIN\\cmsis", "-IMAIN\\dev", "-IMAIN\\wrap", "-IMAIN\\usb_adapter\\App", "-IMAIN\\usb_adapter\\Target", "-IDAP\\inc", "-IHAL\\inc", "-IUSB\\Class\\CustomHID\\Inc", "-IUSB\\Core\\Inc", "-mthumb", "-Wextra", "-Wall", "-g", "-mcpu=cortex-m3", "-ffunction-sections", "-DDEBUG=1", "-DSTM32F103xB", "-o", "build\\.objs\\DAP_Link_for_JLinkOB\\cross\\arm\\debug\\HAL\\Src\\stm32f1xx_hal_rcc.c.o", "HAL\\Src\\stm32f1xx_hal_rcc.c"],
+  "file": "HAL\\Src\\stm32f1xx_hal_rcc.c"
+},
+{
+  "directory": "E:\\Docs\\xLink\\DAP_Link_for_JLinkOB",
+  "arguments": ["D:\\OpenCLI\\Compilers\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc", "-c", "-IMAIN", "-IMAIN\\cmsis", "-IMAIN\\dev", "-IMAIN\\wrap", "-IMAIN\\usb_adapter\\App", "-IMAIN\\usb_adapter\\Target", "-IDAP\\inc", "-IHAL\\inc", "-IUSB\\Class\\CustomHID\\Inc", "-IUSB\\Core\\Inc", "-mthumb", "-Wextra", "-Wall", "-g", "-mcpu=cortex-m3", "-ffunction-sections", "-DDEBUG=1", "-DSTM32F103xB", "-o", "build\\.objs\\DAP_Link_for_JLinkOB\\cross\\arm\\debug\\HAL\\Src\\stm32f1xx_hal_rcc_ex.c.o", "HAL\\Src\\stm32f1xx_hal_rcc_ex.c"],
+  "file": "HAL\\Src\\stm32f1xx_hal_rcc_ex.c"
+},
+{
+  "directory": "E:\\Docs\\xLink\\DAP_Link_for_JLinkOB",
+  "arguments": ["D:\\OpenCLI\\Compilers\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc", "-c", "-IMAIN", "-IMAIN\\cmsis", "-IMAIN\\dev", "-IMAIN\\wrap", "-IMAIN\\usb_adapter\\App", "-IMAIN\\usb_adapter\\Target", "-IDAP\\inc", "-IHAL\\inc", "-IUSB\\Class\\CustomHID\\Inc", "-IUSB\\Core\\Inc", "-mthumb", "-Wextra", "-Wall", "-g", "-mcpu=cortex-m3", "-ffunction-sections", "-DDEBUG=1", "-DSTM32F103xB", "-o", "build\\.objs\\DAP_Link_for_JLinkOB\\cross\\arm\\debug\\HAL\\Src\\stm32f1xx_hal_spi.c.o", "HAL\\Src\\stm32f1xx_hal_spi.c"],
+  "file": "HAL\\Src\\stm32f1xx_hal_spi.c"
+},
+{
+  "directory": "E:\\Docs\\xLink\\DAP_Link_for_JLinkOB",
+  "arguments": ["D:\\OpenCLI\\Compilers\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc", "-c", "-IMAIN", "-IMAIN\\cmsis", "-IMAIN\\dev", "-IMAIN\\wrap", "-IMAIN\\usb_adapter\\App", "-IMAIN\\usb_adapter\\Target", "-IDAP\\inc", "-IHAL\\inc", "-IUSB\\Class\\CustomHID\\Inc", "-IUSB\\Core\\Inc", "-mthumb", "-Wextra", "-Wall", "-g", "-mcpu=cortex-m3", "-ffunction-sections", "-DDEBUG=1", "-DSTM32F103xB", "-o", "build\\.objs\\DAP_Link_for_JLinkOB\\cross\\arm\\debug\\HAL\\Src\\stm32f1xx_hal_tim.c.o", "HAL\\Src\\stm32f1xx_hal_tim.c"],
+  "file": "HAL\\Src\\stm32f1xx_hal_tim.c"
+},
+{
+  "directory": "E:\\Docs\\xLink\\DAP_Link_for_JLinkOB",
+  "arguments": ["D:\\OpenCLI\\Compilers\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc", "-c", "-IMAIN", "-IMAIN\\cmsis", "-IMAIN\\dev", "-IMAIN\\wrap", "-IMAIN\\usb_adapter\\App", "-IMAIN\\usb_adapter\\Target", "-IDAP\\inc", "-IHAL\\inc", "-IUSB\\Class\\CustomHID\\Inc", "-IUSB\\Core\\Inc", "-mthumb", "-Wextra", "-Wall", "-g", "-mcpu=cortex-m3", "-ffunction-sections", "-DDEBUG=1", "-DSTM32F103xB", "-o", "build\\.objs\\DAP_Link_for_JLinkOB\\cross\\arm\\debug\\HAL\\Src\\stm32f1xx_hal_tim_ex.c.o", "HAL\\Src\\stm32f1xx_hal_tim_ex.c"],
+  "file": "HAL\\Src\\stm32f1xx_hal_tim_ex.c"
+},
+{
+  "directory": "E:\\Docs\\xLink\\DAP_Link_for_JLinkOB",
+  "arguments": ["D:\\OpenCLI\\Compilers\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc", "-c", "-IMAIN", "-IMAIN\\cmsis", "-IMAIN\\dev", "-IMAIN\\wrap", "-IMAIN\\usb_adapter\\App", "-IMAIN\\usb_adapter\\Target", "-IDAP\\inc", "-IHAL\\inc", "-IUSB\\Class\\CustomHID\\Inc", "-IUSB\\Core\\Inc", "-mthumb", "-Wextra", "-Wall", "-g", "-mcpu=cortex-m3", "-ffunction-sections", "-DDEBUG=1", "-DSTM32F103xB", "-o", "build\\.objs\\DAP_Link_for_JLinkOB\\cross\\arm\\debug\\HAL\\Src\\stm32f1xx_hal_uart.c.o", "HAL\\Src\\stm32f1xx_hal_uart.c"],
+  "file": "HAL\\Src\\stm32f1xx_hal_uart.c"
+},
+{
+  "directory": "E:\\Docs\\xLink\\DAP_Link_for_JLinkOB",
+  "arguments": ["D:\\OpenCLI\\Compilers\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc", "-c", "-IMAIN", "-IMAIN\\cmsis", "-IMAIN\\dev", "-IMAIN\\wrap", "-IMAIN\\usb_adapter\\App", "-IMAIN\\usb_adapter\\Target", "-IDAP\\inc", "-IHAL\\inc", "-IUSB\\Class\\CustomHID\\Inc", "-IUSB\\Core\\Inc", "-mthumb", "-Wextra", "-Wall", "-g", "-mcpu=cortex-m3", "-ffunction-sections", "-DDEBUG=1", "-DSTM32F103xB", "-o", "build\\.objs\\DAP_Link_for_JLinkOB\\cross\\arm\\debug\\HAL\\Src\\stm32f1xx_ll_usb.c.o", "HAL\\Src\\stm32f1xx_ll_usb.c"],
+  "file": "HAL\\Src\\stm32f1xx_ll_usb.c"
+},
+{
+  "directory": "E:\\Docs\\xLink\\DAP_Link_for_JLinkOB",
+  "arguments": ["D:\\OpenCLI\\Compilers\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc", "-c", "-IMAIN", "-IMAIN\\cmsis", "-IMAIN\\dev", "-IMAIN\\wrap", "-IMAIN\\usb_adapter\\App", "-IMAIN\\usb_adapter\\Target", "-IDAP\\inc", "-IHAL\\inc", "-IUSB\\Class\\CustomHID\\Inc", "-IUSB\\Core\\Inc", "-mthumb", "-Wextra", "-Wall", "-g", "-mcpu=cortex-m3", "-ffunction-sections", "-DDEBUG=1", "-DSTM32F103xB", "-o", "build\\.objs\\DAP_Link_for_JLinkOB\\cross\\arm\\debug\\MAIN\\USBD_User_HID_0.c.o", "MAIN\\USBD_User_HID_0.c"],
+  "file": "MAIN\\USBD_User_HID_0.c"
+},
+{
+  "directory": "E:\\Docs\\xLink\\DAP_Link_for_JLinkOB",
+  "arguments": ["D:\\OpenCLI\\Compilers\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc", "-c", "-IMAIN", "-IMAIN\\cmsis", "-IMAIN\\dev", "-IMAIN\\wrap", "-IMAIN\\usb_adapter\\App", "-IMAIN\\usb_adapter\\Target", "-IDAP\\inc", "-IHAL\\inc", "-IUSB\\Class\\CustomHID\\Inc", "-IUSB\\Core\\Inc", "-mthumb", "-Wextra", "-Wall", "-g", "-mcpu=cortex-m3", "-ffunction-sections", "-DDEBUG=1", "-DSTM32F103xB", "-o", "build\\.objs\\DAP_Link_for_JLinkOB\\cross\\arm\\debug\\MAIN\\main.c.o", "MAIN\\main.c"],
+  "file": "MAIN\\main.c"
+},
+{
+  "directory": "E:\\Docs\\xLink\\DAP_Link_for_JLinkOB",
+  "arguments": ["D:\\OpenCLI\\Compilers\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc", "-c", "-IMAIN", "-IMAIN\\cmsis", "-IMAIN\\dev", "-IMAIN\\wrap", "-IMAIN\\usb_adapter\\App", "-IMAIN\\usb_adapter\\Target", "-IDAP\\inc", "-IHAL\\inc", "-IUSB\\Class\\CustomHID\\Inc", "-IUSB\\Core\\Inc", "-mthumb", "-Wextra", "-Wall", "-g", "-mcpu=cortex-m3", "-ffunction-sections", "-DDEBUG=1", "-DSTM32F103xB", "-o", "build\\.objs\\DAP_Link_for_JLinkOB\\cross\\arm\\debug\\MAIN\\dev\\stm32f1xx_hal_msp.c.o", "MAIN\\dev\\stm32f1xx_hal_msp.c"],
+  "file": "MAIN\\dev\\stm32f1xx_hal_msp.c"
+},
+{
+  "directory": "E:\\Docs\\xLink\\DAP_Link_for_JLinkOB",
+  "arguments": ["D:\\OpenCLI\\Compilers\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc", "-c", "-IMAIN", "-IMAIN\\cmsis", "-IMAIN\\dev", "-IMAIN\\wrap", "-IMAIN\\usb_adapter\\App", "-IMAIN\\usb_adapter\\Target", "-IDAP\\inc", "-IHAL\\inc", "-IUSB\\Class\\CustomHID\\Inc", "-IUSB\\Core\\Inc", "-mthumb", "-Wextra", "-Wall", "-g", "-mcpu=cortex-m3", "-ffunction-sections", "-DDEBUG=1", "-DSTM32F103xB", "-o", "build\\.objs\\DAP_Link_for_JLinkOB\\cross\\arm\\debug\\MAIN\\dev\\stm32f1xx_it.c.o", "MAIN\\dev\\stm32f1xx_it.c"],
+  "file": "MAIN\\dev\\stm32f1xx_it.c"
+},
+{
+  "directory": "E:\\Docs\\xLink\\DAP_Link_for_JLinkOB",
+  "arguments": ["D:\\OpenCLI\\Compilers\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc", "-c", "-IMAIN", "-IMAIN\\cmsis", "-IMAIN\\dev", "-IMAIN\\wrap", "-IMAIN\\usb_adapter\\App", "-IMAIN\\usb_adapter\\Target", "-IDAP\\inc", "-IHAL\\inc", "-IUSB\\Class\\CustomHID\\Inc", "-IUSB\\Core\\Inc", "-mthumb", "-Wextra", "-Wall", "-g", "-mcpu=cortex-m3", "-ffunction-sections", "-DDEBUG=1", "-DSTM32F103xB", "-o", "build\\.objs\\DAP_Link_for_JLinkOB\\cross\\arm\\debug\\MAIN\\dev\\system_stm32f1xx.c.o", "MAIN\\dev\\system_stm32f1xx.c"],
+  "file": "MAIN\\dev\\system_stm32f1xx.c"
+},
+{
+  "directory": "E:\\Docs\\xLink\\DAP_Link_for_JLinkOB",
+  "arguments": ["D:\\OpenCLI\\Compilers\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc", "-c", "-IMAIN", "-IMAIN\\cmsis", "-IMAIN\\dev", "-IMAIN\\wrap", "-IMAIN\\usb_adapter\\App", "-IMAIN\\usb_adapter\\Target", "-IDAP\\inc", "-IHAL\\inc", "-IUSB\\Class\\CustomHID\\Inc", "-IUSB\\Core\\Inc", "-mthumb", "-Wextra", "-Wall", "-g", "-mcpu=cortex-m3", "-ffunction-sections", "-DDEBUG=1", "-DSTM32F103xB", "-o", "build\\.objs\\DAP_Link_for_JLinkOB\\cross\\arm\\debug\\MAIN\\usb_adapter\\App\\usbd_custom_hid_if.c.o", "MAIN\\usb_adapter\\App\\usbd_custom_hid_if.c"],
+  "file": "MAIN\\usb_adapter\\App\\usbd_custom_hid_if.c"
+},
+{
+  "directory": "E:\\Docs\\xLink\\DAP_Link_for_JLinkOB",
+  "arguments": ["D:\\OpenCLI\\Compilers\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc", "-c", "-IMAIN", "-IMAIN\\cmsis", "-IMAIN\\dev", "-IMAIN\\wrap", "-IMAIN\\usb_adapter\\App", "-IMAIN\\usb_adapter\\Target", "-IDAP\\inc", "-IHAL\\inc", "-IUSB\\Class\\CustomHID\\Inc", "-IUSB\\Core\\Inc", "-mthumb", "-Wextra", "-Wall", "-g", "-mcpu=cortex-m3", "-ffunction-sections", "-DDEBUG=1", "-DSTM32F103xB", "-o", "build\\.objs\\DAP_Link_for_JLinkOB\\cross\\arm\\debug\\MAIN\\usb_adapter\\App\\usbd_desc.c.o", "MAIN\\usb_adapter\\App\\usbd_desc.c"],
+  "file": "MAIN\\usb_adapter\\App\\usbd_desc.c"
+},
+{
+  "directory": "E:\\Docs\\xLink\\DAP_Link_for_JLinkOB",
+  "arguments": ["D:\\OpenCLI\\Compilers\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc", "-c", "-IMAIN", "-IMAIN\\cmsis", "-IMAIN\\dev", "-IMAIN\\wrap", "-IMAIN\\usb_adapter\\App", "-IMAIN\\usb_adapter\\Target", "-IDAP\\inc", "-IHAL\\inc", "-IUSB\\Class\\CustomHID\\Inc", "-IUSB\\Core\\Inc", "-mthumb", "-Wextra", "-Wall", "-g", "-mcpu=cortex-m3", "-ffunction-sections", "-DDEBUG=1", "-DSTM32F103xB", "-o", "build\\.objs\\DAP_Link_for_JLinkOB\\cross\\arm\\debug\\MAIN\\usb_adapter\\App\\usb_device.c.o", "MAIN\\usb_adapter\\App\\usb_device.c"],
+  "file": "MAIN\\usb_adapter\\App\\usb_device.c"
+},
+{
+  "directory": "E:\\Docs\\xLink\\DAP_Link_for_JLinkOB",
+  "arguments": ["D:\\OpenCLI\\Compilers\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc", "-c", "-IMAIN", "-IMAIN\\cmsis", "-IMAIN\\dev", "-IMAIN\\wrap", "-IMAIN\\usb_adapter\\App", "-IMAIN\\usb_adapter\\Target", "-IDAP\\inc", "-IHAL\\inc", "-IUSB\\Class\\CustomHID\\Inc", "-IUSB\\Core\\Inc", "-mthumb", "-Wextra", "-Wall", "-g", "-mcpu=cortex-m3", "-ffunction-sections", "-DDEBUG=1", "-DSTM32F103xB", "-o", "build\\.objs\\DAP_Link_for_JLinkOB\\cross\\arm\\debug\\MAIN\\usb_adapter\\Target\\usbd_conf.c.o", "MAIN\\usb_adapter\\Target\\usbd_conf.c"],
+  "file": "MAIN\\usb_adapter\\Target\\usbd_conf.c"
+},
+{
+  "directory": "E:\\Docs\\xLink\\DAP_Link_for_JLinkOB",
+  "arguments": ["D:\\OpenCLI\\Compilers\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc", "-c", "-IMAIN", "-IMAIN\\cmsis", "-IMAIN\\dev", "-IMAIN\\wrap", "-IMAIN\\usb_adapter\\App", "-IMAIN\\usb_adapter\\Target", "-IDAP\\inc", "-IHAL\\inc", "-IUSB\\Class\\CustomHID\\Inc", "-IUSB\\Core\\Inc", "-mthumb", "-Wextra", "-Wall", "-g", "-mcpu=cortex-m3", "-ffunction-sections", "-DDEBUG=1", "-DSTM32F103xB", "-o", "build\\.objs\\DAP_Link_for_JLinkOB\\cross\\arm\\debug\\MAIN\\wrap\\device.c.o", "MAIN\\wrap\\device.c"],
+  "file": "MAIN\\wrap\\device.c"
+},
+{
+  "directory": "E:\\Docs\\xLink\\DAP_Link_for_JLinkOB",
+  "arguments": ["D:\\OpenCLI\\Compilers\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc", "-c", "-IMAIN", "-IMAIN\\cmsis", "-IMAIN\\dev", "-IMAIN\\wrap", "-IMAIN\\usb_adapter\\App", "-IMAIN\\usb_adapter\\Target", "-IDAP\\inc", "-IHAL\\inc", "-IUSB\\Class\\CustomHID\\Inc", "-IUSB\\Core\\Inc", "-mthumb", "-Wextra", "-Wall", "-g", "-mcpu=cortex-m3", "-ffunction-sections", "-DDEBUG=1", "-DSTM32F103xB", "-o", "build\\.objs\\DAP_Link_for_JLinkOB\\cross\\arm\\debug\\USB\\Class\\CustomHID\\Src\\usbd_customhid.c.o", "USB\\Class\\CustomHID\\Src\\usbd_customhid.c"],
+  "file": "USB\\Class\\CustomHID\\Src\\usbd_customhid.c"
+},
+{
+  "directory": "E:\\Docs\\xLink\\DAP_Link_for_JLinkOB",
+  "arguments": ["D:\\OpenCLI\\Compilers\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc", "-c", "-IMAIN", "-IMAIN\\cmsis", "-IMAIN\\dev", "-IMAIN\\wrap", "-IMAIN\\usb_adapter\\App", "-IMAIN\\usb_adapter\\Target", "-IDAP\\inc", "-IHAL\\inc", "-IUSB\\Class\\CustomHID\\Inc", "-IUSB\\Core\\Inc", "-mthumb", "-Wextra", "-Wall", "-g", "-mcpu=cortex-m3", "-ffunction-sections", "-DDEBUG=1", "-DSTM32F103xB", "-o", "build\\.objs\\DAP_Link_for_JLinkOB\\cross\\arm\\debug\\USB\\Core\\Src\\usbd_core.c.o", "USB\\Core\\Src\\usbd_core.c"],
+  "file": "USB\\Core\\Src\\usbd_core.c"
+},
+{
+  "directory": "E:\\Docs\\xLink\\DAP_Link_for_JLinkOB",
+  "arguments": ["D:\\OpenCLI\\Compilers\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc", "-c", "-IMAIN", "-IMAIN\\cmsis", "-IMAIN\\dev", "-IMAIN\\wrap", "-IMAIN\\usb_adapter\\App", "-IMAIN\\usb_adapter\\Target", "-IDAP\\inc", "-IHAL\\inc", "-IUSB\\Class\\CustomHID\\Inc", "-IUSB\\Core\\Inc", "-mthumb", "-Wextra", "-Wall", "-g", "-mcpu=cortex-m3", "-ffunction-sections", "-DDEBUG=1", "-DSTM32F103xB", "-o", "build\\.objs\\DAP_Link_for_JLinkOB\\cross\\arm\\debug\\USB\\Core\\Src\\usbd_ctlreq.c.o", "USB\\Core\\Src\\usbd_ctlreq.c"],
+  "file": "USB\\Core\\Src\\usbd_ctlreq.c"
+},
+{
+  "directory": "E:\\Docs\\xLink\\DAP_Link_for_JLinkOB",
+  "arguments": ["D:\\OpenCLI\\Compilers\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc", "-c", "-IMAIN", "-IMAIN\\cmsis", "-IMAIN\\dev", "-IMAIN\\wrap", "-IMAIN\\usb_adapter\\App", "-IMAIN\\usb_adapter\\Target", "-IDAP\\inc", "-IHAL\\inc", "-IUSB\\Class\\CustomHID\\Inc", "-IUSB\\Core\\Inc", "-mthumb", "-Wextra", "-Wall", "-g", "-mcpu=cortex-m3", "-ffunction-sections", "-DDEBUG=1", "-DSTM32F103xB", "-o", "build\\.objs\\DAP_Link_for_JLinkOB\\cross\\arm\\debug\\USB\\Core\\Src\\usbd_ioreq.c.o", "USB\\Core\\Src\\usbd_ioreq.c"],
+  "file": "USB\\Core\\Src\\usbd_ioreq.c"
+},
+{
+  "directory": "E:\\Docs\\xLink\\DAP_Link_for_JLinkOB",
+  "arguments": ["D:\\OpenCLI\\Compilers\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc", "-c", "-IMAIN", "-IMAIN\\cmsis", "-IMAIN\\dev", "-IMAIN\\wrap", "-IMAIN\\usb_adapter\\App", "-IMAIN\\usb_adapter\\Target", "-IDAP\\inc", "-IHAL\\inc", "-IUSB\\Class\\CustomHID\\Inc", "-IUSB\\Core\\Inc", "-o", "build\\.objs\\DAP_Link_for_JLinkOB\\cross\\arm\\debug\\Startup.S.o", "Startup.S"],
+  "file": "Startup.S"
+}]
