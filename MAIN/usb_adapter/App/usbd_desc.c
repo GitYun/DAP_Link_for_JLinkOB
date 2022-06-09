@@ -64,13 +64,13 @@
   */
 
 /* I don't have my own USB VID/PID. Zach Lee */
-#define USBD_VID     1155
-#define USBD_LANGID_STRING     1033
-#define USBD_MANUFACTURER_STRING     "GenieKits"
-#define USBD_PID_FS     22352
-#define USBD_PRODUCT_STRING_FS     "CMSIS DAP"
-#define USBD_CONFIGURATION_STRING_FS     "DAP HID Config"
-#define USBD_INTERFACE_STRING_FS     "DAP HID Interface"
+#define USBD_VID                        0xC251 //1155
+#define USBD_LANGID_STRING              1033
+#define USBD_MANUFACTURER_STRING        "GenieKits"
+#define USBD_PID_FS                     0xF001 //22352
+#define USBD_PRODUCT_STRING_FS          "CMSIS DAP"
+#define USBD_CONFIGURATION_STRING_FS    "DAP HID Config"
+#define USBD_INTERFACE_STRING_FS        "DAP HID Interface"
 
 /* USER CODE BEGIN PRIVATE_DEFINES */
 

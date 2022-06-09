@@ -59,7 +59,7 @@
 void DEVICE_Init(void);
 
 /* Private defines -----------------------------------------------------------*/
-#define LED_CONNECTED_Pin   GPIO_PIN_13
-#define LED_GPIO_Port       GPIOC
+#define LED_CONNECTED_Pin   GPIO_PIN_12
+#define LED_GPIO_Port       GPIOB
 
 #endif

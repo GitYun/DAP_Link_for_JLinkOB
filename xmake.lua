@@ -1,6 +1,6 @@
 add_rules("mode.debug", "mode.release")
 
-target("DAP_Link_for_JLinkOB")
+target("DAP_Link_for_JLinkOB.elf")
     set_kind("binary")
     
     add_includedirs("MAIN", "MAIN/cmsis", "MAIN/dev", "MAIN/wrap", "MAIN/usb_adapter/App", "MAIN/usb_adapter/Target")
@@ -15,20 +15,23 @@ target("DAP_Link_for_JLinkOB")
     add_files("MAIN/usb_adapter/App/*.c", "MAIN/usb_adapter/Target/*.c")
     add_files("MAIN/wrap/*.c")
     add_files("USB/Class/CustomHID/Src/*.c", "USB/Core/Src/*.c")
-    add_files("Startup.S")
+    add_files("startup_stm32f103c8tx.s")
 
     add_cflags("-mthumb", "-Wextra", "-Wall", "-g", "-mcpu=cortex-m3",
                "-ffunction-sections", "-DDEBUG=1", "-DSTM32F103xB")
-    -- add_cflags("-O2")
     
-    add_ldflags("-Wl,-Map", "-Wl,DAP_Link_for_JLinkOB.map",
+    add_ldflags("-Wl,-Map", "-Wl,$(buildir)/cross/arm/debug/DAP_Link_for_JLinkOB.map",
                 "-Wl,--gc-sections", "-n", "-Wl,-cref", "-mcpu=cortex-m3",
-                "-mthumb", "-TFlash.ld", {force = true})
-    -- add_ldflags("-s")
+                "-mthumb", "-TSTM32F103C8TX_FLASH.ld", {force = true})
+
+    if is_mode("release") then
+        add_cflags("-O2")
+        add_ldflags("-s")
+    end
 
     add_ldflags("-lc", {force = true})
     
-    set_filename("DAP_Link_for_JLinkOB.elf")
+    -- set_filename("DAP_Link_for_JLinkOB")
 
 --
 -- If you want to known more usage about xmake, please see https://xmake.io

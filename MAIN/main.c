@@ -40,7 +40,11 @@ __NO_RETURN void app_main (void *argument) {
   USBD_Initialize(0U);                  // USB Device Initialization
   USBD_Connect(0U);                     // USB Device Connect
 
-  while (!USBD_Configured(0U));         // Wait for USB Device to configure
+  while (!USBD_Configured(0U))         // Wait for USB Device to configure
+  {
+      LED_CONNECTED_TOGGLE();
+      Delayms(10);
+  }
 
   LED_CONNECTED_OUT(1U);                // Turn on  Debugger Connected LED
   LED_RUNNING_OUT(1U);                  // Turn on  Target Running LED
