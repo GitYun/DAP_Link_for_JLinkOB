@@ -1,0 +1,22 @@
+
+ 
+VID     PID     Packet Size Has SWD  Has JTAG Has SWV Has ETM Descriptor   Usage Page Interface
+------- ------- ----------- -------  -------- ------- ------- ----------   ---------- ---------
+0x1FC9, 0x0090, 1024,       1,       1,       0,      0,      "CMSIS-DAP", 0xFF00,    0
+ 
+ 
+VID:         Vendor ID
+PID:         Product ID
+Packet Size: USB packet size. Most probes use 64 byte HID packets. The Keil (non-bridge) firmware
+             uses a 1024 byte packet. The NXP bridge and non-bridge CMSIS-DAP probes also use a
+             1024 byte packet.
+Has SWD:     Probe supports SWD protocol.
+Has JTAG:    Probe supports JTAG protocol.
+Has SWV:     Probe supports Serial Wire Viewer (NXP proprietary)
+Has ETM:     Probe supports ETM (NXP proprietary)
+Descriptor:  Text string (or partial text string) used to match against the probe product string.
+             A non-null descriptor string is used for bridge probes to inform the server it must
+             also match the debug connection on Usage Page or Interface number, depending on host.
+             If used, both must be valid.
+Usage Page:  Usage page, or 0 (zero) if don't care.
+Interface:   Interface number, or -1 if don't care. See Descriptor.

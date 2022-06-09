@@ -64,11 +64,11 @@
   */
 
 /* I don't have my own USB VID/PID. Zach Lee */
-#define USBD_VID                        0xC251 //1155
-#define USBD_LANGID_STRING              1033
-#define USBD_MANUFACTURER_STRING        "GenieKits"
-#define USBD_PID_FS                     0xF001 //22352
-#define USBD_PRODUCT_STRING_FS          "CMSIS DAP"
+#define USBD_LANGID_STRING              0x0409
+#define USBD_VID                        0x0D28
+#define USBD_PID_FS                     0x0204
+#define USBD_MANUFACTURER_STRING        "Vemagic"
+#define USBD_PRODUCT_STRING_FS          "JLinkOB CMSIS-DAP"
 #define USBD_CONFIGURATION_STRING_FS    "DAP HID Config"
 #define USBD_INTERFACE_STRING_FS        "DAP HID Interface"
 
@@ -166,7 +166,7 @@ __ALIGN_BEGIN uint8_t USBD_FS_DeviceDesc[USB_LEN_DEV_DESC] __ALIGN_END =
   LOBYTE(USBD_PID_FS),        /*idProduct*/
   HIBYTE(USBD_PID_FS),        /*idProduct*/
   0x00,                       /*bcdDevice rel. 2.00*/
-  0x02,
+  0x01,
   USBD_IDX_MFC_STR,           /*Index of manufacturer  string*/
   USBD_IDX_PRODUCT_STR,       /*Index of product string*/
   USBD_IDX_SERIAL_STR,        /*Index of serial number string*/
@@ -209,6 +209,9 @@ __ALIGN_BEGIN uint8_t USBD_StrDesc[USBD_MAX_STR_DESC_SIZ] __ALIGN_END;
 __ALIGN_BEGIN uint8_t USBD_StringSerial[USB_SIZ_STRING_SERIAL] __ALIGN_END = {
   USB_SIZ_STRING_SERIAL,
   USB_DESC_TYPE_STRING,
+  '0', 0, '0', 0, '0', 0, '1', 0,
+  'A', 0, '0', 0, '0', 0, '0', 0,
+  '0', 0, '0', 0, '0', 0, '0', 0
 };
 
 /**

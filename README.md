@@ -1,4 +1,6 @@
-#### DAP-Link (CMSIS-DAP) Fireware for JLink OB Hardware
+#### DAP-Link (CMSIS-DAP) Fireware for JLink-OB Hardware
+
+**Note:** The JLink-OB hardware base on STM32F103C8T6.
 
 - MCU: STM32F103C8
 - Debug Interface: SWD (TMS, TCK, nRESET, GND)
@@ -46,3 +48,29 @@
 | 5V             | 5V              |
 | 3.3V           | 3.3V            |
 
+
+
+### Support NXP MCUXproessIDE
+
+For support MCUXproessIDE, the USB **VID**, **PID** and **PRODUCT STRING** must be modifed:
+
+```c
+// usbd_desc.c
+
+#define USBD_LANGID_STRING              0x0409
+#define USBD_VID                        0x0D28
+#define USBD_PID_FS                     0x0204
+#define USBD_PRODUCT_STRING_FS          "JLinkOB CMSIS-DAP"
+```
+
+and also need to modify the **probetable.csv** file, it localed at `MCUXpressoIDE_intalled_dir\ide\plugins\com.nxp.mcuxpresso.tools.bin.win32_11.5.1.202204071413\binaries\Scripts`:
+
+```c
+// probetable.csv
+
+0x0D28, 0x0019, 64, 1, 0, 0, 0, "", 0x0000, -1, -1
+//0x0D28, 0x0204, 64, 1, 0, 0, 0, "", 0x0000, -1, -1
+0x0D28, 0x0204, 64, 1, 1, 0, 0, "", 0x0000, 3, -1
+```
+
+as above, we must add a be commented new entry to above at VID and PID is 0x0D28, 0x0204 line, then the MCUXproessIDE can identify the our custom CMSIS-Link.
