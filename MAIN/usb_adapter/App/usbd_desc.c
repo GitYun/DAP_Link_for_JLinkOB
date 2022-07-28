@@ -65,8 +65,8 @@
 
 /* I don't have my own USB VID/PID. Zach Lee */
 #define USBD_LANGID_STRING              0x0409
-#define USBD_VID                        0x0D28
-#define USBD_PID_FS                     0x0204
+#define USBD_VID                        0x2786
+#define USBD_PID_FS                     0xF00B
 #define USBD_MANUFACTURER_STRING        "Vemagic"
 #define USBD_PRODUCT_STRING_FS          "JLinkOB CMSIS-DAP"
 #define USBD_CONFIGURATION_STRING_FS    "DAP HID Config"
